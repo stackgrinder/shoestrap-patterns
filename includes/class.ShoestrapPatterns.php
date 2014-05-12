@@ -21,7 +21,7 @@ if ( !class_exists( 'ShoestrapPatterns' ) ) {
 		/**
 		 * The admin options
 		 */
-		function options() {
+		function options( $sections ) {
 			global $redux;
 
 			//Background Patterns Reader
